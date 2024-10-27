@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Lab1AS</string>
+    <string name="editText1">Proszę wpisać tekst</string>
+    <string name="Button1">Wyślij</string>
+    <string name="button2">Powrót</string>
+    <string name="switch1">WIELKIE LITERY</string>
 </resources>
