@@ -4,4 +4,5 @@
     <string name="Button1">Wyślij</string>
     <string name="button2">Powrót</string>
     <string name="switch1">WIELKIE LITERY</string>
+    <string name="btnClose">Zamknij aplikację</string>
 </resources>

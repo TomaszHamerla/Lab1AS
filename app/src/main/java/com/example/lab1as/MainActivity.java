@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
 
@@ -21,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         upperCase = findViewById(R.id.switch1);
+
+        Button closeAppBtn = findViewById(R.id.btnClose);
+        closeAppBtn.setOnClickListener(view -> finishAffinity());
     }
     public void wyslijWiadomosc(View v) {
         EditText editText = findViewById(R.id.editText1);

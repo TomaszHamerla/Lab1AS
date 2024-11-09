@@ -3,6 +3,7 @@ package com.example.lab1as;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +20,9 @@ public class NowaAktywnosc extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.textView);
         textView.setText(message);
+
+        Button closeAppBtn = findViewById(R.id.btnClose);
+        closeAppBtn.setOnClickListener(view -> finishAffinity());
     }
 
     public void backToStartScreen(View v) {
